@@ -1,0 +1,5 @@
+parm com_sol.prmtop          # 加载拓扑文件
+trajin prod.nc               # 加载轨迹文件     
+rms first :1-112@CA,C,N out rmsd.dat # 计算特定残基1-112（受体）的CA, C, N骨架原子RMSD,将第一帧作为参考
+
+

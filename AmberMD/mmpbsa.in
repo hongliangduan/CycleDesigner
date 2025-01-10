@@ -1,0 +1,11 @@
+Sample input file for GB and PB calculation
+&general
+startframe=100, endframe=500, interval=5,
+verbose=2, keep_files=0,
+/
+&gb
+igb=5, saltcon=0.150,
+/
+&pb
+istrng=0.15, fillratio=4.0
+/
