@@ -1,0 +1,6 @@
+parm com_sol.prmtop
+trajin md.nc
+autoimage
+rms first :1-223@CA,C,N out rec_rmsd.dat time 0.01 #Set the residue numbering according to the simulation system
+
+
