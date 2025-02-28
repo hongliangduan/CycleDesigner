@@ -34,7 +34,6 @@ class PositionalEncoding2D(nn.Module):
         ## 240819
         seqsep_pep = idx_pep[:,None,:] - idx_pep[:,:,None] # (B, L, L)
         L = idx_pep.shape[1]
-        seqsep_pep = (seqsep_pep+L//2)%L-L//2
         seqsep[:, :L, :L] = seqsep_pep
         #
         ib = torch.bucketize(seqsep, bins).long() # (B, L, L)
