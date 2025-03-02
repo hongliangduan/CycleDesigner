@@ -1,0 +1,10 @@
+source leaprc.protein.ff19SB
+source leaprc.water.opc
+mol = loadpdb com.pdb
+bond mol.286.N mol.292.C
+solvateoct mol OPCBOX 10.0
+addions mol Na+ 0
+addions mol Cl- 0
+set default PBRadii mbondi2
+saveamberparm mol com_sol.prmtop com_sol.inpcrd
+quit
