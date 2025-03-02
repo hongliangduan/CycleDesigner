@@ -1,0 +1,7 @@
+Minimization: step5.in
+ &cntrl
+   imin = 1, ntmin = 2, maxcyc = 1000, ncyc = 10,
+   ntwx = 500, ioutfm = 1, ntxo = 2, ntpr = 50, ntwr = 500, 
+   ntc = 1, ntf = 1, ntb = 1, cut = 8.0, 
+   ntr = 0,
+ &end

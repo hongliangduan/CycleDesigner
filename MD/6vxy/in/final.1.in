@@ -1,0 +1,11 @@
+MD: final.1.in
+ &cntrl
+   imin = 0, nstlim = 500000, dt = 0.002, 
+   ntx = 5, irest = 1, ig = -1,
+   ntwx = 5000, ntwv = -1, ioutfm = 1, ntxo = 2, ntpr = 500, ntwr = 50000, 
+   iwrap = 0, nscm = 1000,
+   ntc = 2, ntf = 2, ntb = 2, cut = 9.0,  
+   ntt = 3, gamma_ln = 5, temp0 = 300, tempi = 300,
+   ntp = 1, barostat = 2, pres0 = 1.0, mcbarint = 100,
+   ntr = 0,
+ &end

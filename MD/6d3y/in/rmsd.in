@@ -1,0 +1,5 @@
+parm com_sol.prmtop
+trajin md1.nc 1 -1 100
+rms com_sol.inpcrd :1-223@CA,C,N out rec1_rmsd.dat  #Modified to the corresponding residue
+
+
