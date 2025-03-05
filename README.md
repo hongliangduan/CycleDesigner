@@ -15,4 +15,4 @@ The inference adapt for the targets with binders only, if there is no binders in
 ./scripts/run_inference.py 'contigmap.contigs=[A1-n/0 a-a]' 'ppi.hotspot_res=[A1,A2]' inference.deterministic=Ture inference.num_designs=5 inference.model_directory_path=/YOUR/MODEL/PATH inference.input_pdb=/YOUR/PDB/PATH/pdb.pdb inference.output_prefix=/YOUR/OUTPUT/CYCPEP/NAME > /PATH/NAME.log 2>&1
 ```
 ### MD traj files
-The output trajectory files of molecular dynamics simulation prosess have uploaded at [Zenodo](https://zenodo.org/records/14955049)).
+The output trajectory files of molecular dynamics simulation prosess have uploaded at [Zenodo](https://zenodo.org/records/14955049).
